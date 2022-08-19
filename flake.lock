@@ -45,7 +45,6 @@
     },
     "root": {
       "inputs": {
-        "flake-utils": "flake-utils",
         "nixpkgs": "nixpkgs",
         "opus_src": "opus_src",
         "tinycmmc": "tinycmmc"
@@ -53,9 +52,7 @@
     },
     "tinycmmc": {
       "inputs": {
-        "flake-utils": [
-          "flake-utils"
-        ],
+        "flake-utils": "flake-utils",
         "nixpkgs": [
           "nixpkgs"
         ]
